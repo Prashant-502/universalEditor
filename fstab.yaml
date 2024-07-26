@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p48457-e1275402.adobeaemcloud.com/bin/franklin.delivery/Prashant-502/universalEditor/main"
+    url: "https://adobeaemcloud.com/bin/franklin.delivery/Prashant-502/universalEditor/main"
     type: "markup"
     suffix: ".html"
