@@ -187,28 +187,28 @@
     ]
   },
   {
-    "id": "slider",
+    "id": "teaser",
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
-        "name": "sliderComp",
+        "name": "image",
         "label": "Background Image",
         "multi": false
       },
       {
         "component": "text",
-        "valueType": "string",
-        "name": "slidertitle",
+        "name": "title",
         "value": "",
-        "label": "Slider Title"
+        "label": "Title",
+        "valueType": "string"
       },
       {
         "component": "richtext",
-        "valueType": "string",
-        "name": "sliderdescription",
+        "name": "description",
         "value": "",
-        "label": "Slider Description"
+        "label": "Description",
+        "valueType": "string"
       }
     ]
   }
