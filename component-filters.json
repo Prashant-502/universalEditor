@@ -29,7 +29,8 @@
       "cards",
       "columns",
       "teaser",
-      "carousel"
+      "carousel",
+      "carouselitem"
     ]
   },
   {
