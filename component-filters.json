@@ -41,7 +41,7 @@
   {
     "id": "carousel",
     "components": [
-      "carouselitem"
+      "carouselitems"
     ]
   }
 ]

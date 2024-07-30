@@ -187,27 +187,27 @@
     ]
   },
   {
-    "id": "carouselitem",
+    "id": "carouselitems",
     "fields": [
       {
         "component": "reference",
         "valueType": "string",
-        "name": "carouselImage",
-        "label": "carouselImage",
+        "name": "carouselimage",
+        "label": "carouselimage",
         "multi": false
       },
       {
         "component": "text",
-        "name": "carouselTitle",
+        "name": "carouseltitle",
         "value": "",
-        "label": "carouselTitle",
+        "label": "carouseltitle",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "carouselDescription",
+        "name": "carouseldescription",
         "value": "",
-        "label": "carouselDescription",
+        "label": "carouseldescription",
         "valueType": "string"
       }
     ]
