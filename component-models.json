@@ -192,15 +192,22 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
+        "name": "carouselImage",
+        "label": "carouselImage",
         "multi": false
       },
       {
         "component": "text",
-        "name": "title",
+        "name": "carouselTitle",
         "value": "",
-        "label": "Title",
+        "label": "carouselTitle",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "carouselDescription",
+        "value": "",
+        "label": "carouselDescription",
         "valueType": "string"
       }
     ]
