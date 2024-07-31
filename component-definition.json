@@ -165,6 +165,21 @@
               }
             }
           }
+        },
+        {
+          "title": "CarouselSlide",
+          "id": "carouselslide",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "CarouselSlide",
+                  "model": "carouselslide"
+                }
+              }
+            }
+          }
         }
       ]
     }
