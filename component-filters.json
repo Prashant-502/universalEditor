@@ -37,11 +37,5 @@
     "components": [
       "card"
     ]
-  },
-  {
-    "id": "carousel",
-    "components": [
-      "carouselitems"
-    ]
   }
 ]
