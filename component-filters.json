@@ -28,13 +28,20 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "slidercarousel"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "slidercarousel",
+    "components": [
+      "carouselslidess"
     ]
   }
 ]
