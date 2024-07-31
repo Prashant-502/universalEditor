@@ -29,7 +29,7 @@
       "cards",
       "columns",
       "fragment",
-      "slidercarousel"
+      "carousel"
     ]
   },
   {
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "id": "slidercarousel",
+    "id": "carousel",
     "components": [
       "carouselslidess"
     ]
