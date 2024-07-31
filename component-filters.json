@@ -39,7 +39,7 @@
     ]
   },
   {
-    "id": "carousel",
+    "id": "carousels",
     "components": [
       "carouselslide"
     ]
