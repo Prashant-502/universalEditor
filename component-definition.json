@@ -160,7 +160,7 @@
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Carousels",
-                  "filter": "carousels"
+                  "filter": "carousel"
                 }
               }
             }
