@@ -46,17 +46,6 @@
     ]
   },
   {
-    "id": "accordion",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title",
-      "hero",
-      "cards"
-    ]
-  },
-  {
     "id": "carousel-block",
     "components": [
       "carousel"
