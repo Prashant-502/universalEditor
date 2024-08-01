@@ -6,14 +6,14 @@
     border-radius: 7px;
     margin-bottom: 28px;
 }
-.accordion-group>.accordion details div {
+.accordion-block>.accordion details div {
     font-size: var(--exlm-font-size-content);
     line-height: var(--exlm-line-height-h4);
     /* margin-left: 14px;
     margin-top: 14px; */
 }
 /* override /docs font size */
-.accordion-group>.accordion details summary {
+.accordion-block>.accordion details summary {
     font-size: var(--spectrum-font-size-200);
     line-height: var(--exlm-line-height-h4);
 }
