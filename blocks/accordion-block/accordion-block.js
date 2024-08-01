@@ -1,4 +1,4 @@
-import { generateAccordionDOM } from "../accordion/accordion.js";
+import { generateAccordionDOM } from '../accordion/accordion.js';
 
 export default async function decorate(block) {
   // each row is an accordion entry
@@ -8,11 +8,11 @@ export default async function decorate(block) {
     // generate the accordion
     const accordionDOM = generateAccordionDOM(accordion);
     // empty the content ,keep root element with UE instrumentation
-    accordion.textContent = "";
+    accordion.textContent = '';
     // add block classes
-    accordion.classList.add("accordion", "block");
+    accordion.classList.add('accordion', 'block');
     accordion.append(accordionDOM);
   });
   // use same styling as shade-box from /docs
-  block.classList.add("shade-box");
+  block.classList.add('shade-box');
 }
