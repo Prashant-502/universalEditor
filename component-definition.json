@@ -160,16 +160,7 @@
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Accordion Group",
-                  "model": "accordion-group",
-                  "filter": "accordion",
-                  "item": {
-                    "sling:resourceType": "core/franklin/components/block/v1/block/item",
-                    "name": "Accordion",
-                    "model": "accordion",
-                    "heading": "Accordion Group",
-                    "headingType": "h3",
-                    "body": "Hii this is accordion group component"
-                  }
+                  "filter": "accordion"
                 }
               }
             }
