@@ -214,24 +214,5 @@
         "label": "Body"
       }
     ]
-  },
-  {
-    "id": "carousel",
-    "fields": [
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "heading",
-        "value": "",
-        "label": "Heading"
-      },
-      {
-        "component": "richtext",
-        "valueType": "string",
-        "name": "body",
-        "value": "",
-        "label": "Body"
-      }
-    ]
   }
 ]

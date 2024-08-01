@@ -29,8 +29,7 @@
       "cards",
       "columns",
       "fragment",
-      "accordion-block",
-      "carousel-block"
+      "accordion-block"
     ]
   },
   {
@@ -43,12 +42,6 @@
     "id": "accordion-block",
     "components": [
       "accordion"
-    ]
-  },
-  {
-    "id": "carousel-block",
-    "components": [
-      "carousel"
     ]
   }
 ]
