@@ -205,6 +205,23 @@
               }
             }
           }
+        },
+        {
+          "title": "Carousel",
+          "id": "carousel",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Carousel",
+                  "model": "carousel",
+                  "heading": "carousel",
+                  "body": "Hii this is carousel component"
+                }
+              }
+            }
+          }
         }
       ]
     }
