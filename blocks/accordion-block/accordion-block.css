@@ -1,5 +1,5 @@
 @import "../accordion/accordion.css";
-/* inside accordion group we can have text below first div */
+/* inside accordion block we can have text below first div */
 .shade-box {
     background-color: var(--spectrum-gray-100);
     padding: 14px 21px 21px;
