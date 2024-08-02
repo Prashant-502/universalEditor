@@ -184,7 +184,7 @@
           }
         },
         {
-          "title": "Carousels Block",
+          "title": "Carousels",
           "id": "carousels",
           "plugins": {
             "xwalk": {
