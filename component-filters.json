@@ -46,7 +46,7 @@
     ]
   },
   {
-    "id": "carousel-block",
+    "id": "carousels",
     "components": [
       "carousel"
     ]
