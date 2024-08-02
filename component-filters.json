@@ -48,7 +48,7 @@
   {
     "id": "carousel-block",
     "components": [
-      "carousel-item"
+      "carousel"
     ]
   }
 ]
