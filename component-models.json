@@ -221,13 +221,6 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "carousel_brand",
-        "value": "",
-        "label": "Brand"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
         "name": "carousel_title",
         "value": "",
         "label": "Title"
@@ -275,30 +268,16 @@
       {
         "component": "aem-content",
         "valueType": "string",
-        "name": "carousel_button1",
+        "name": "carousel_button",
         "value": "",
-        "label": "Button1 Link"
+        "label": "Button Link"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "carousel_button1Text",
+        "name": "carousel_buttonText",
         "value": "",
-        "label": "Button1 Text"
-      },
-      {
-        "component": "aem-content",
-        "valueType": "string",
-        "name": "carousel_button2",
-        "value": "",
-        "label": "Button2 Link"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "carousel_button2Text",
-        "value": "",
-        "label": "Button2 Text"
+        "label": "Button Text"
       },
       {
         "component": "reference",
