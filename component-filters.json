@@ -30,7 +30,7 @@
       "columns",
       "fragment",
       "accordion-block",
-      "carousel"
+      "carousel-block"
     ]
   },
   {
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "id": "carousel",
+    "id": "carousel-block",
     "components": [
       "carousel-item"
     ]
