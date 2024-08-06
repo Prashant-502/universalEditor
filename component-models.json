@@ -221,13 +221,13 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "jcr:title",
+        "name": "carousel_title",
         "value": "",
         "label": "Title"
       },
       {
         "component": "select",
-        "name": "type",
+        "name": "carousel_titleType",
         "value": "h1",
         "label": "Type",
         "valueType": "string",
