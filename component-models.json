@@ -287,5 +287,28 @@
         "multi": false
       }
     ]
+  },
+  {
+    "id": "unorderedlist",
+    "fields": []
+  },
+  {
+    "id": "listitem",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "liImage",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "lititle",
+        "value": "",
+        "label": "Title"
+      }
+    ]
   }
 ]
