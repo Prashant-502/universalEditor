@@ -287,5 +287,28 @@
         "multi": false
       }
     ]
+  },
+  {
+    "id": "ul",
+    "fields": []
+  },
+  {
+    "id": "li",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "imageli",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "titleli",
+        "value": "",
+        "label": "Title"
+      }
+    ]
   }
 ]
