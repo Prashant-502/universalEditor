@@ -1,9 +1,9 @@
-import generateLiHtmml from "../listitem/listitem.js";
+import { generateLiHtml } from "../listitem/listitem.js";
 
-export default function decorate(block) {
+export function decorate(block) {
     const ulblock = document.createElement('ul');
     
-    const liBlock = generateLiHtmml(block);
+    const liBlock = generateLiHtml(block);
     ulblock.append(liBlock);
 
     block.innerHTML = ""

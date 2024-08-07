@@ -1,4 +1,4 @@
-export default function generateLiHtmml(block){
+export function generateLiHtml(block){
   var blockChildren = block.querySelector('div');
   const props = Array.from(blockChildren.children, (row) => row);
   const [image, text] = props;
