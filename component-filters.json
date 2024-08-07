@@ -30,8 +30,7 @@
       "columns",
       "fragment",
       "accordion-block",
-      "carousels-block",
-      "unorderedlist"
+      "carousels-block"
     ]
   },
   {
@@ -50,12 +49,6 @@
     "id": "carousels-block",
     "components": [
       "carousel-item"
-    ]
-  },
-  {
-    "id": "unorderedlist",
-    "components": [
-      "listitem"
     ]
   }
 ]
