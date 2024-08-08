@@ -4,7 +4,7 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 export default function decorate(block) {
   /* change to ul, li */
   block.parentElement.classList.add('glide');
-  block.parentElement.classList.add('carousel');
+  block.parentElement.classList.add('carouselinitializer');
   block.classList.add('glide__track');
   block.setAttribute("data-glide-el", "track");
   const ul = document.createElement('ul');
