@@ -4,6 +4,7 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 export default function decorate(block) {
   /* change to ul, li */
   const ul = document.createElement('ul');
+  ul.classList.add('glide__slides');
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
     moveInstrumentation(row, li);
@@ -21,6 +22,4 @@ export default function decorate(block) {
   });
   block.textContent = '';
   block.append(ul);
-  block.classlist.add("glide__track");
-  console.log(block);
 }
