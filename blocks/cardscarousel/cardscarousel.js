@@ -5,6 +5,7 @@ export default function decorate(block) {
   /* change to ul, li */
   block.parentElement.classList.add('glide');
   block.parentElement.classList.add('hero');
+  block.classList.add('glide__track');
   const ul = document.createElement('ul');
   ul.classList.add('glide__slides');
   [...block.children].forEach((row) => {
