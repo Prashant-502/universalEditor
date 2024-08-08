@@ -7,7 +7,7 @@ export default function decorate(block) {
   ul.classList.add('glide__slides');
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
-    ul.classList.add('glide__slide');
+    li.classList.add('glide__slide');
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
