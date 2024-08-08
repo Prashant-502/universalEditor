@@ -3,6 +3,7 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 
 export default function decorate(block) {
   /* change to ul, li */
+  blockWrapper.classList.add('glide hero');
   const ul = document.createElement('ul');
   ul.classList.add('glide__slides');
   [...block.children].forEach((row) => {
