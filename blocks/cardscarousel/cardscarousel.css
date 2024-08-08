@@ -1,0 +1,32 @@
+.cardscarousel > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+    grid-gap: 16px;
+  }
+  
+  .cardscarousel > ul > li {
+    border: 1px solid var(--dark-color);
+    background-color: var(--background-color);
+  }
+  
+  .cardscarousel .cardscarousel-cardcarouselslide-body {
+    margin: 16px;
+  }
+  
+  .cardscarousel .cardscarousel-cardcarouselslide-image {
+    line-height: 0;
+  }
+  
+  .cardscarousel .cardscarousel-cardcarouselslide-body > *:first-child {
+    margin-top: 0;
+  }
+  
+  .cardscarousel > ul > li img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+  

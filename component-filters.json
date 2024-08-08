@@ -31,13 +31,20 @@
       "fragment",
       "accordion-block",
       "carousels-block",
-      "ul"
+      "ul",
+      "cardscarousel"
     ]
   },
   {
     "id": "cards",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "cardscarousel",
+    "components": [
+      "cardcarouselslide"
     ]
   },
   {
