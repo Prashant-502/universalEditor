@@ -12,15 +12,15 @@
     background-color: var(--background-color);
   }
   
-  .slider-wrapper .slider-wrapper-card-body {
+  .slider-wrapper .slider-wrapper-body {
     margin: 16px;
   }
   
-  .slider-wrapper .slider-wrapper-card-image {
+  .slider-wrapper .slider-wrapper-image {
     line-height: 0;
   }
   
-  .slider-wrapper .slider-wrapper-card-body > *:first-child {
+  .slider-wrapper .slider-wrapper-body > *:first-child {
     margin-top: 0;
   }
   
