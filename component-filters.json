@@ -32,7 +32,8 @@
       "accordion-block",
       "carousels-block",
       "ul",
-      "cardscarousel"
+      "cardscarousel",
+      "slider-wrapper"
     ]
   },
   {
@@ -45,6 +46,12 @@
     "id": "cardscarousel",
     "components": [
       "cardcarouselslide"
+    ]
+  },
+  {
+    "id": "slider-wrapper",
+    "components": [
+      "slider-item"
     ]
   },
   {

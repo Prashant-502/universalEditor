@@ -272,6 +272,36 @@
               }
             }
           }
+        },
+        {
+          "title": "Slider Wrapper",
+          "id": "slider-wrapper",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Slider Wrapper",
+                  "filter": "slider-wrapper"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Slider item",
+          "id": "slider-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Slider item",
+                  "model": "slider-item"
+                }
+              }
+            }
+          }
         }
       ]
     }
