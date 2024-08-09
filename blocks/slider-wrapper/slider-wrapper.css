@@ -2,9 +2,6 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-    grid-gap: 16px;
   }
   
   .slider-wrapper > ul > li {
@@ -17,7 +14,7 @@
   }
   
   .slider-wrapper .slider-wrapper-image {
-    line-height: 0;
+    /* line-height: 0; */
   }
   
   .slider-wrapper .slider-wrapper-body > *:first-child {
@@ -26,7 +23,7 @@
   
   .slider-wrapper > ul > li img {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    /* aspect-ratio: 4 / 3;
+    object-fit: cover; */
   }
   
